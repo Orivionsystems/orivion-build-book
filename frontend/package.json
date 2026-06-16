@@ -2,8 +2,16 @@
   "name": "orivion-frontend",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
   "dependencies": {
     "react": "latest",
     "react-dom": "latest"
+  },
+  "devDependencies": {
+    "vite": "latest",
+    "@vitejs/plugin-react": "latest"
   }
 }
