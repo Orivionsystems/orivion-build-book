@@ -15,3 +15,13 @@ class TaskCreate(BaseModel):
 
     description: str
     assigned_agent: Optional[str] = None
+
+
+class MemoryItem(BaseModel):
+    """Represents an item stored in the memory system."""
+    id: int
+    content: str
+
+class MemoryCreate(BaseModel):
+    """Schema used for creating a new memory item via the API."""
+    content: str
